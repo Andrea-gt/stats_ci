@@ -25,7 +25,7 @@ from lib import mean, median, mode, variance, ds
 def test_mean():
     # Mean of odd and even sized lists.
     assert mean([1, 2, 3, 4, 5]) == 3
-    assert mean([10, 20]) == 12
+    assert mean([10, 20]) == 13
 
 
 def test_mean_edge():

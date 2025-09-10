@@ -23,7 +23,7 @@ All functions raise appropriate exceptions for invalid inputs (e.g., empty lists
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/stats_ci.git
+git clone https://github.com/Andrea-gt/stats_ci.git
 cd stats_ci
 ````
 
@@ -76,4 +76,5 @@ stats_ci/
 │   └── workflows/
 │       └── tests.yml
 └── README.md
+└── pyproject.toml
 ```

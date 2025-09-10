@@ -1,4 +1,4 @@
-# lib - Basic Statistics Library
+# Basic Statistics Library
 
 `lib` is a small Python package that provides basic statistical functions implemented from scratch, without any external dependencies.
 

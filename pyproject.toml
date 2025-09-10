@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lib"
+version = "0.1.0"
+description = "A small Python package providing basic statistical functions"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+keywords = ["statistics", "mean", "median", "mode", "variance", "std"]
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["lib*"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q"
+testpaths = ["tests"]

@@ -1,5 +1,5 @@
 """
-stats_package
+lib
 
 This package exposes all functions from stats.py directly,
 so they can be imported.

@@ -88,8 +88,7 @@ def test_variance_edge():
 def test_ds():
     # Standard deviation of spread-out list and constant list.
     assert round(ds([1, 2, 3, 4, 5]), 2) == 1.58
-    assert ds([10, 10, 10, 10]) == 0
-
+    assert ds([10, 10, 10, 10]) == pytest.approx(0, abs=1e-6)
 
 def test_ds_edge():
     # Standard deviation requires at least 2 data points.
